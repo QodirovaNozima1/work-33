@@ -3,9 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="">
+    <title>Mohid</title>
 </head>
 <body>
-    CITE
+    <header class="header">
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img src="./assets/navbar logo.png" alt="">
+                    <p>Mohid</p>
+                </div>
+              <ul class="navbar__collection">
+                <li class="navbar__item">Home</li>
+                <li class="navbar__item">
+                <select name="brands" id="brands">
+                    <option value="Brands">Brands</option>
+                    <option value="Nike">Nike</option>
+                    <option value="Calvin Ceiln">Calvin Ceiln</option>
+                    <option value="LV">LV</option>
+                    <option value="Christian Dior">CD</option>
+                </select></li>
+                <li class="navbar__item">Recent Products</li>
+                <li class="navbar__item">Contact</li>
+                <li class="navbar__item">About</li>
+              </ul>
+              <div class="navbar__icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </nav>
+        </section>
+      </header>
+
+      <section class="hero">
+        <div class="container">
+                <div class="hero__box">
+                    <div class="hero__text">
+                        <h2>Discover Most Suitable Watches</h2>
+                        <p>Find the best, reliable, and cheap smart watches here. We focus on product quality. Here you can find smart watches of almost all brands. So why you are waiting? Just order now!</p>
+                        <div class="hero__search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Find the best brands">
+                            <button class="hero__btn">Search</button>
+                        </div>
+                    </div>
+                    <div class="hero__img">
+                        <img src="./assets/hero__img.png" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="container">
+        <div class="watch__wrapper">
+         <div class="watch">
+             <img src="./assets/card1.png" alt="">
+             <div class="watch__desc">
+                 <h2 class="watch__title">Apple</h2>
+             <p class="watch__text">Apple is one of the most famous smart watches providing company.</p>
+             </div>
+         </div>
+         <div class="watch">
+             <img src="./assets/card2.png" alt="">
+             <div class="watch__desc">
+                 <h2 class="watch__title">Xiaomi</h2>
+             <p class="watch__text">Xiaomi smart watches are produced by MI company.</p>
+             </div>
+         </div>
+         <div class="watch">
+             <img src="./assets/card3.png" alt="">
+             <div class="watch__desc">
+                 <h2 class="watch__title">FitBit</h2>
+             <p class="watch__text">FitBit smart watches are best for there health and fitness features.</p>
+             </div>
+         </div>
+        </div>
+     </section>
+     
+    <div class="api container">
+        <div class="skeleton"></div>
+        <ul class="collection">
+            <li class="item">
+                <data value="">All</data>
+              </li>
+          </ul>
+        <div class="wrapper">
+           <div class="card"></div>
+        </div>
+        <button class="seemore">See More</button>
+    </div>
+    <section class="container">
+        <div class="opinions">
+          <p>Here are our some of the best clients.</p>
+          <h2>What People Say About Us</h2>
+          <div class="opinions__box"> 
+            <div class="opinions__card">
+               <img src="./assets/rasm.png" alt=""> 
+               <div class="information">
+                <h2>Hamza Faizi</h2>
+                <p>Don’t waste time, just order! This is the best website to puschase smart watches.</p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i> 
+               </div>
+            </div>
+            <div class="opinions__card">
+               <img src="./assets/rasm  2.png" alt=""> 
+               <div class="information">
+                <h2>Hafiz Huzaifa</h2>
+                <p>I’ve been purchasing smart watches of Mohid for a long time. All the products are good quality.</p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i> 
+               </div>
+            </div>
+          </div>
+          <div class="dots">
+            <img src="./assets/circle.png" alt="">
+            <img src="./assets/circle.png" alt="">
+            <img src="./assets/circle.png" alt="">
+            <img src="./assets/circle.png" alt="">
+            <img src="./assets/colorful.png" alt="">
+          </div>
+        </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="bottom">
+            <div class="bottom__text">
+                <h2>Subscribe To Newsletter</h2>
+                <p>Get free guide about smart watches daily.</p>
+                <div class="bottom__sender">
+                    <input class="bottom__input" type="text" placeholder="Enter Email Address">
+                    <button class="sender__btn">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+            <img src="./assets/product1.png" alt="">
+        </div>
+    </section>
+    <footer class="end">
+        <div class="container">
+            <div class="footer"><b>Copyright @ 2022 |Nozima</b></div>
+        </div>
+    </footer>
+
+
+
+
+     <script src="./app.js"></script>
 </body>
 </html>
